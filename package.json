@@ -1,0 +1,31 @@
+{
+  "name": "webpack-learn",
+  "version": "0.0.1",
+  "description": "webpack learn notes",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "dev": "webpack-dev-server"
+  },
+  "keywords": [
+    "webpack",
+    "learn"
+  ],
+  "author": "alanerzhao",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.9.1",
+    "jquery": "^2.2.4",
+    "object-assign": "^4.1.0",
+    "vue": "^1.0.24"
+  }
+}
